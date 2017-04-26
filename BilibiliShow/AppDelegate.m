@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LMThirdPartyManager.h"
+#import "LMLaunchViewController.h"
+#import "LMVideoLaunchViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,8 +18,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    [[LMThirdPartyManager manager] setupThirdPartyConfigurationWithApplication:application didFinishedLaunchingWithOptions:launchOptions];
+    self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor=LMWhiteColor;
+#if 1
+    UIViewController *vc=nil;
+    int random =arc4random_uniform(100) %2;
+    if (random ==1) {
+        vc=[[LMLaunchViewController alloc]init];
+    }else{
+    
+        vc=[[LMVideoLaunchViewController alloc]init];
+    
+    }
+#endif
+    self.window.rootViewController=vc;
+    [self.window makeKeyAndVisible];
+    
+    
+    
+       return YES;
 }
 
 
