@@ -24,13 +24,13 @@
 #if 1
     UIViewController *vc=nil;
     int random =arc4random_uniform(100) %2;
-    if (random ==1) {
+   // if (random ==1) {
         vc=[[LMLaunchViewController alloc]init];
-    }else{
+    //}else{
     
-        vc=[[LMVideoLaunchViewController alloc]init];
+      //  vc=[[LMVideoLaunchViewController alloc]init];
     
-    }
+    //}
 #endif
     self.window.rootViewController=vc;
     [self.window makeKeyAndVisible];

@@ -12,8 +12,8 @@
 
 +(void)GET:(NSString *)url
     params:(NSDictionary *)params
-  progress:(void(^)(NSProgress *))progress
-    sucess:(void(^)(id))sucess
+  progress:(void(^)(NSProgress * ))progress
+    sucess:(void(^)(id ))sucess
    failure:(void(^)(NSError *))failure{
     //1.获取请求管理者
     AFHTTPSessionManager *manager=[AFHTTPSessionManager manager];
@@ -58,6 +58,7 @@
     }];
 
 }
+
 #pragma mark 监听网络
 +(void)startMonitoring:(void(^)(NSUInteger NetworkState))networkStateBlock{
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];

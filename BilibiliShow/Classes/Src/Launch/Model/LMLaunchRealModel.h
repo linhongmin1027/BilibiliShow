@@ -19,6 +19,10 @@
 @property NSString *image;
 /** 启动页的出现次数 */
 @property NSString *times;
+
+
+
+-(instancetype)initWithModel:(LMLaunchModel *)model;
 @end
 
 RLM_ARRAY_TYPE(LMLaunchRealModel)

@@ -9,5 +9,6 @@ target ‘BilibiliShow’ do
   pod 'FMDB', '~> 2.6.2'
   pod 'MJExtension', '~> 3.0.13'
   pod 'Realm'
-  
+  pod 'ReactiveObjC' 
+  pod 'YYKit'
 end

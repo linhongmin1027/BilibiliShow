@@ -20,9 +20,7 @@
 		6A24DA001EB047BA00944E19 /* live_content.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A24D9F81EB047BA00944E19 /* live_content.json */; };
 		6A24DA011EB047BA00944E19 /* protocol.html in Resources */ = {isa = PBXBuildFile; fileRef = 6A24D9F91EB047BA00944E19 /* protocol.html */; };
 		6A24DA021EB047BA00944E19 /* three.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6A24D9FB1EB047BA00944E19 /* three.mov */; };
-		6A24DA051EB0486900944E19 /* UIColor+LMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24DA041EB0486900944E19 /* UIColor+LMAdd.m */; };
 		6A24DA141EB0501C00944E19 /* LMThirdPartyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24DA131EB0501C00944E19 /* LMThirdPartyManager.m */; };
-		6A24DA171EB0617200944E19 /* NSString+LMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24DA161EB0617200944E19 /* NSString+LMAdd.m */; };
 		6A24DA1A1EB06A7000944E19 /* LMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24DA191EB06A7000944E19 /* LMNetworkManager.m */; };
 		6A24DA1E1EB0B36200944E19 /* LMNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24DA1D1EB0B36200944E19 /* LMNaviViewController.m */; };
 		6A24DA211EB0B38000944E19 /* LMTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24DA201EB0B38000944E19 /* LMTabBarViewController.m */; };
@@ -30,6 +28,7 @@
 		6A24DA2A1EB0BADE00944E19 /* LMVideoLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24DA261EB0BADE00944E19 /* LMVideoLaunchViewController.m */; };
 		6A24DA301EB0BC9900944E19 /* LMLaunchRealModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24DA2F1EB0BC9900944E19 /* LMLaunchRealModel.m */; };
 		6A24DA331EB0BD6400944E19 /* LMLaunchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24DA321EB0BD6400944E19 /* LMLaunchModel.m */; };
+		6A3953511EB19F6D007F2E3A /* LMLaunchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3953501EB19F6D007F2E3A /* LMLaunchViewModel.m */; };
 		9031F8854664FA646E764693 /* libPods-BilibiliShow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71E78694DC58BEDEA80614B /* libPods-BilibiliShow.a */; };
 /* End PBXBuildFile section */
 
@@ -55,12 +54,8 @@
 		6A24D9F81EB047BA00944E19 /* live_content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = live_content.json; sourceTree = "<group>"; };
 		6A24D9F91EB047BA00944E19 /* protocol.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = protocol.html; sourceTree = "<group>"; };
 		6A24D9FB1EB047BA00944E19 /* three.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = three.mov; sourceTree = "<group>"; };
-		6A24DA031EB0486900944E19 /* UIColor+LMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LMAdd.h"; sourceTree = "<group>"; };
-		6A24DA041EB0486900944E19 /* UIColor+LMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LMAdd.m"; sourceTree = "<group>"; };
 		6A24DA121EB0501C00944E19 /* LMThirdPartyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMThirdPartyManager.h; sourceTree = "<group>"; };
 		6A24DA131EB0501C00944E19 /* LMThirdPartyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMThirdPartyManager.m; sourceTree = "<group>"; };
-		6A24DA151EB0617200944E19 /* NSString+LMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LMAdd.h"; sourceTree = "<group>"; };
-		6A24DA161EB0617200944E19 /* NSString+LMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LMAdd.m"; sourceTree = "<group>"; };
 		6A24DA181EB06A7000944E19 /* LMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNetworkManager.h; sourceTree = "<group>"; };
 		6A24DA191EB06A7000944E19 /* LMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNetworkManager.m; sourceTree = "<group>"; };
 		6A24DA1C1EB0B36200944E19 /* LMNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNaviViewController.h; sourceTree = "<group>"; };
@@ -75,6 +70,8 @@
 		6A24DA2F1EB0BC9900944E19 /* LMLaunchRealModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLaunchRealModel.m; sourceTree = "<group>"; };
 		6A24DA311EB0BD6400944E19 /* LMLaunchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLaunchModel.h; sourceTree = "<group>"; };
 		6A24DA321EB0BD6400944E19 /* LMLaunchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLaunchModel.m; sourceTree = "<group>"; };
+		6A39534F1EB19F6D007F2E3A /* LMLaunchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLaunchViewModel.h; sourceTree = "<group>"; };
+		6A3953501EB19F6D007F2E3A /* LMLaunchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLaunchViewModel.m; sourceTree = "<group>"; };
 		A71E78694DC58BEDEA80614B /* libPods-BilibiliShow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BilibiliShow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA383ABB26E4AB7D4DC905B6 /* Pods-BilibiliShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilibiliShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BilibiliShow/Pods-BilibiliShow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,10 +159,6 @@
 		6A24D9E31EB045BF00944E19 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				6A24DA031EB0486900944E19 /* UIColor+LMAdd.h */,
-				6A24DA041EB0486900944E19 /* UIColor+LMAdd.m */,
-				6A24DA151EB0617200944E19 /* NSString+LMAdd.h */,
-				6A24DA161EB0617200944E19 /* NSString+LMAdd.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -208,6 +201,7 @@
 		6A24D9E81EB045BF00944E19 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
+				6A39534E1EB1954E007F2E3A /* ViewModel */,
 				6A24DA221EB0BADE00944E19 /* Controller */,
 				6A24DA271EB0BADE00944E19 /* Model */,
 				6A24DA281EB0BADE00944E19 /* View */,
@@ -332,6 +326,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		6A39534E1EB1954E007F2E3A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6A39534F1EB19F6D007F2E3A /* LMLaunchViewModel.h */,
+				6A3953501EB19F6D007F2E3A /* LMLaunchViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		D9D7E8EAD12BD66ACE7A60D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -375,6 +378,7 @@
 				TargetAttributes = {
 					6A24D9C71EB0430D00944E19 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4LM9Y47E8Q;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -471,11 +475,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A24DA301EB0BC9900944E19 /* LMLaunchRealModel.m in Sources */,
-				6A24DA171EB0617200944E19 /* NSString+LMAdd.m in Sources */,
 				6A24DA1E1EB0B36200944E19 /* LMNaviViewController.m in Sources */,
 				6A24DA141EB0501C00944E19 /* LMThirdPartyManager.m in Sources */,
-				6A24DA051EB0486900944E19 /* UIColor+LMAdd.m in Sources */,
 				6A24DA1A1EB06A7000944E19 /* LMNetworkManager.m in Sources */,
+				6A3953511EB19F6D007F2E3A /* LMLaunchViewModel.m in Sources */,
 				6A24D9D31EB0430D00944E19 /* ViewController.m in Sources */,
 				6A24D9D01EB0430D00944E19 /* AppDelegate.m in Sources */,
 				6A24DA331EB0BD6400944E19 /* LMLaunchModel.m in Sources */,
@@ -601,10 +604,11 @@
 			baseConfigurationReference = AA383ABB26E4AB7D4DC905B6 /* Pods-BilibiliShow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4LM9Y47E8Q;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BilibiliShow/PrefixHeader.pch";
 				INFOPLIST_FILE = BilibiliShow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.linhongmin.BilibiliShow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.expansion.UITableViewAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -614,10 +618,11 @@
 			baseConfigurationReference = 6035464766AFF12ED6EF578C /* Pods-BilibiliShow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4LM9Y47E8Q;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/BilibiliShow/PrefixHeader.pch";
 				INFOPLIST_FILE = BilibiliShow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.linhongmin.BilibiliShow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.expansion.UITableViewAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
