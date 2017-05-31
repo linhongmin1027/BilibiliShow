@@ -29,6 +29,8 @@
 		6A24DA301EB0BC9900944E19 /* LMLaunchRealModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24DA2F1EB0BC9900944E19 /* LMLaunchRealModel.m */; };
 		6A24DA331EB0BD6400944E19 /* LMLaunchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24DA321EB0BD6400944E19 /* LMLaunchModel.m */; };
 		6A3953511EB19F6D007F2E3A /* LMLaunchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3953501EB19F6D007F2E3A /* LMLaunchViewModel.m */; };
+		6A739A9B1EB986A200543DF0 /* LHMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A739A9A1EB986A200543DF0 /* LHMNetworkManager.m */; };
+		6A739A9E1EB9A72600543DF0 /* UIImage+LMAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A739A9D1EB9A72600543DF0 /* UIImage+LMAdd.m */; };
 		9031F8854664FA646E764693 /* libPods-BilibiliShow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71E78694DC58BEDEA80614B /* libPods-BilibiliShow.a */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +74,10 @@
 		6A24DA321EB0BD6400944E19 /* LMLaunchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLaunchModel.m; sourceTree = "<group>"; };
 		6A39534F1EB19F6D007F2E3A /* LMLaunchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLaunchViewModel.h; sourceTree = "<group>"; };
 		6A3953501EB19F6D007F2E3A /* LMLaunchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLaunchViewModel.m; sourceTree = "<group>"; };
+		6A739A991EB986A200543DF0 /* LHMNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHMNetworkManager.h; sourceTree = "<group>"; };
+		6A739A9A1EB986A200543DF0 /* LHMNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHMNetworkManager.m; sourceTree = "<group>"; };
+		6A739A9C1EB9A72600543DF0 /* UIImage+LMAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LMAdd.h"; sourceTree = "<group>"; };
+		6A739A9D1EB9A72600543DF0 /* UIImage+LMAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LMAdd.m"; sourceTree = "<group>"; };
 		A71E78694DC58BEDEA80614B /* libPods-BilibiliShow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BilibiliShow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA383ABB26E4AB7D4DC905B6 /* Pods-BilibiliShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BilibiliShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BilibiliShow/Pods-BilibiliShow.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,6 +165,8 @@
 		6A24D9E31EB045BF00944E19 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				6A739A9C1EB9A72600543DF0 /* UIImage+LMAdd.h */,
+				6A739A9D1EB9A72600543DF0 /* UIImage+LMAdd.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -244,6 +252,8 @@
 				6A24DA131EB0501C00944E19 /* LMThirdPartyManager.m */,
 				6A24DA181EB06A7000944E19 /* LMNetworkManager.h */,
 				6A24DA191EB06A7000944E19 /* LMNetworkManager.m */,
+				6A739A991EB986A200543DF0 /* LHMNetworkManager.h */,
+				6A739A9A1EB986A200543DF0 /* LHMNetworkManager.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -481,6 +491,8 @@
 				6A3953511EB19F6D007F2E3A /* LMLaunchViewModel.m in Sources */,
 				6A24D9D31EB0430D00944E19 /* ViewController.m in Sources */,
 				6A24D9D01EB0430D00944E19 /* AppDelegate.m in Sources */,
+				6A739A9B1EB986A200543DF0 /* LHMNetworkManager.m in Sources */,
+				6A739A9E1EB9A72600543DF0 /* UIImage+LMAdd.m in Sources */,
 				6A24DA331EB0BD6400944E19 /* LMLaunchModel.m in Sources */,
 				6A24D9CD1EB0430D00944E19 /* main.m in Sources */,
 				6A24DA291EB0BADE00944E19 /* LMLaunchViewController.m in Sources */,

@@ -16,6 +16,7 @@
     return self;
 }
 -(BOOL)conformNowtimestamp{
+    return YES;
     long long timestamp= (long long) [[NSDate date] timeIntervalSince1970];
     if (timestamp > [self.model.start_time longLongValue] &&
         timestamp < [self.model.end_time longLongValue]) {

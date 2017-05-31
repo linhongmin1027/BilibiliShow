@@ -51,7 +51,7 @@
     
   self.splashImageView.layer.anchorPoint=CGPointMake(0.5, 0.8);
    NSString *appLaunchTimes=[LMUserDefaults objectForKey:kAppLaunchTimes];
-    //self.splashImageView.hidden=YES;
+  
     self.bgImageView.hidden=NO;
     self.splashImageView.hidden=YES;
     if ([appLaunchTimes isNotBlank]) {//如果不是第一次启动
@@ -68,17 +68,7 @@
          *动画加载之后如果有网进行网络请求缓存图片
          *如果没有网络那么不必开启计数器,因此计数器要放到网络请求成功之后开启
          */
-       /* RLMResults *results=[LMLaunchRealModel allObjects];
-        if (results.count) {
-            LMLaunchRealModel *model=[results firstObject];
-            //获取时间戳
-            long long timestamp=(long long)[[NSDate date] timeIntervalSince1970];
-            if (timestamp > [model.start_time longLongValue] &&
-                timestamp < [model.end_time longLongValue]) {
-                [self launchWithNetwork:model];
-            }
-            
-        }*/
+      
         if ([LMNetworkManager getCurrentNetworkState] !=NetworkStateNone) {
             [self loadLaunchDataWhenAppFirstOpen];
           
